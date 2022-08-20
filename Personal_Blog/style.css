@@ -1,0 +1,89 @@
+body {
+    font-family: poppins, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(88, 88, 219);
+}
+
+header{
+    margin-top: -20px;
+    background-color: rgb(66, 114, 204);
+    height: 30px;
+    width: 1349px;
+    margin-left: -8px;
+}
+
+nav ul{
+    margin-left:700px ;
+    display: flex;
+}
+
+nav ul li{
+    color: rgb(187, 180, 180);
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 4px;
+}
+
+button:hover{
+    background-color: green;
+}
+
+nav ul a li:hover{
+    background-color: snow;
+    border-radius: 5px;
+}
+
+.bio{
+    background-color: rgb(94, 174, 240);
+    height: 250px;
+    display: flex;
+    width: 1349px;
+    margin-left: -8px;
+}
+
+.bio-style{
+    margin-left: 50px;
+    color: white;
+}
+
+.service{
+    background-color: rgba(224, 222, 222, 0.568);
+    width: 1349px;
+    margin-left: -8px;
+    height: 500px;
+}
+
+.move{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.img{
+    border-radius: 50px; 
+    height: 50px;
+    margin-left: 70px;
+    margin-top: -50px;
+    background-color: rgb(94, 174, 240);
+}
+
+.sec{
+    height: 240px;
+    width: 200px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 50px;
+    list-style-type: circle;
+    list-style: circle;
+    
+  }
+  .sec li{
+    list-style-type: square ;
+    margin-left: 25px;
+    border-radius: 100p;
+  }
